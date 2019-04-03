@@ -30,3 +30,5 @@ spec:
   serviceMonitorNamespaceSelector: {}
   serviceMonitorSelector: {}
   version: v2.7.2
+  remoteWrite:
+    - url: http://prometheus-adapter.andzom.svc.cluster.local:8080/receive
